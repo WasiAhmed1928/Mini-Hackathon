@@ -2,6 +2,9 @@
 .my-navbar{
     height: 80px;
     background-color: rgb(40, 40, 40);
+    /* position: sticky;
+    top: 0;
+    z-index: 99; */
 }
 .btn-1{
     color: rgb(170, 98, 237);
@@ -15,7 +18,12 @@
     background-color: rgb(170, 98, 237);
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
+}
+.btn-2:hover{
+    background-color: white;
+    color: rgb(170, 98, 237);
+    transition: 0.5s;
 }
 .my-navbar a{
     color: white;
@@ -25,15 +33,17 @@
     margin-left: 80px;
 }
 .my-navbar a:hover{
-    /* text-decoration: underline blueviolet; */
+    border-bottom: 2.2px solid rgb(170, 98, 237);
     color: white;
+}
+.mylink{
+    padding-bottom: 1px;
 }
 
 /* section 1 */
 .my-sec1{
     height: 650px;
     background-color: rgb(40, 40, 40);
-    margin-top: 1px;
 }
 .sec1-cnt h1{
     font-size: 60px;
@@ -50,6 +60,11 @@
     margin-left: 10px;
     margin-top: 30px;
 }
+.btn-3:hover{
+    background-color: rgb(170, 98, 237);
+    color: white;
+    transition: 0.5s;
+}
 
 /* section 2 */
 .sec-2{
@@ -63,12 +78,111 @@
     color: white;
 }
 .sec3-cart{
-    width: 300px;
+    width: 280px;
     height: 250px;
-    /* border-radius: 20px; */
+    border: 1px solid rgb(170, 98, 237);
+    border-radius: 20px;
+    background-color: rgb(170, 98, 237);
 }
 
 /* section 4 */
 .sec-4{
-    height: 1000px;
+    height: 2000px;
+}
+
+/* section 5 */
+.sec-5{
+    height: 454px;
+    
+}
+.peoples{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(170, 98, 237);
+    border-radius: 50%;
+    background-image: url("./Assests/peoples.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.process{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(170, 98, 237);
+    border-radius: 50%;
+    background-image: url("./Assests/process.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.solar-star{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(170, 98, 237);
+    border-radius: 50%;
+    background-image: url("./Assests/solar_star.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec5-cnt p{
+    font-size: 20px;
+}
+
+/* section 6 */
+.sec-6{
+    height: 690px;
+}
+.sec6-cnt{
+    width: 857px;
+    height: 390px;
+    border-radius: 30px;
+    margin-top: px;
+    background-color: #AC6CFF;
+}
+
+/* section 7 */
+.sec-7{
+    height: 722px;
+}
+.sec7-carts{
+    width: 309px;
+    height: 380px;
+    border-radius: 30px;
+}
+.sec7-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AC6CFF;
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.sec7-btn:hover{
+    background-color: white;
+    color: #AC6CFF;
+    transition: 0.5s;
+}
+.sec-7 ul li{
+    font-size: 17px;
+}
+
+/* section 8 */
+.sec-8{
+    height: 311px;
+}
+
+/* footer */
+.myfooter{
+    height: 577px;
+}
+.map::before{
+    content: url("./Assests/map.png");
+}
+.phone::before{
+    content: url("./Assests/phone.png");
+}
+.mobile::before{
+    content: url("./Assests/mobile.png");
 }
